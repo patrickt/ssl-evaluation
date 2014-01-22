@@ -48,7 +48,7 @@ Attempting to connect to How's my SSL with the `http-streams` package led to the
 
     error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
 
-Jim Hodges explains what this means:
+Jeff Hodges explains what this means:
 
     jmhodges: importantshock: that's it trying to handshake with an ssl v2 client hello
     jmhodges: with the "real" tls version inside it
